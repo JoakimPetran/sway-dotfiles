@@ -2,7 +2,10 @@
 
 ## Prerequisites
 
-Make sure to install nerdfonts, zsh4humans and lazyvim
+Make sure to install:
+ - nerdfonts (`./local/share/fonts` and `fc-cache -fv`)
+ - zsh4humans 
+ - lazyvim (symlink its binaries to `.local/bin`)
 
 ## Packages to install (apt-mark showmanual)
 
@@ -71,6 +74,7 @@ grub-common
 grub-efi-amd64
 gzip
 hostname
+htop
 ifupdown
 imv
 inetutils-telnet
@@ -202,6 +206,7 @@ nano
 ncurses-base
 ncurses-bin
 ncurses-term
+neofetch
 netbase
 netcat-traditional
 nftables
