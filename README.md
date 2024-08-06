@@ -231,6 +231,7 @@ rtorrent
 sed
 sensible-utils
 shim-signed
+slurp
 sway
 sway-notification-center
 swayidle
@@ -264,6 +265,7 @@ vim-tiny
 vlc
 wamerican
 waybar
+wf-recorder
 wget
 whiptail
 wireless-tools
