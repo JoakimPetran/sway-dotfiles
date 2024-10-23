@@ -1,4 +1,5 @@
 ### Variables
+
 #
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
@@ -318,3 +319,10 @@ for_window [app_id="firefox" title="About Mozilla Firefox"] floating enable
 # Chrome, Chromium
 for_window [title="Picture-in-picture"] floating enable
 
+
+# Import the WAYLAND_DISPLAY env var from sway into the systemd user session.
+exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
+
+# Stop any services that are running, so that they receive the new env var when they restart.
+#exec systemctl --user stop pipewire pipewire-media-session xdg-desktop-portal xdg-desktop-portal-wlr
+#exec systemctl --user start pipewire-media-session
