@@ -7,7 +7,7 @@ Make sure to install:
  - zsh4humans 
  - lazyvim (symlink its binaries to `~/.local/bin`)
 
-## Packages to install
+## Packages to install (APT)
 
 7zip
 alacritty
@@ -55,6 +55,4 @@ wofi
 wtype
 xdg-desktop-portal-wlr
 zathura
-zlib1g
 zsh
-zstd
