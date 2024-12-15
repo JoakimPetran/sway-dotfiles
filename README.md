@@ -3,7 +3,7 @@
 ## Prerequisites
 
 Make sure to install:
- - nerdfonts (`~/.local/share/fonts` and `fc-cache -fv`)
+ - MesloLG Nerdfont, FontAwesome6, SourceSans3 (`~/.local/share/fonts` and `fc-cache -fv`)
  - zsh4humans 
  - lazyvim (symlink its binaries to `~/.local/bin`)
 
